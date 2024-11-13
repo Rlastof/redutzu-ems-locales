@@ -1,0 +1,617 @@
+{
+    "navigation": {
+        "dashboard": "Gösterge Paneli",
+        "incidents": "Olaylar",
+        "doctors": "Doktorlar",
+        "dispatch": "Gönderim",
+        "citizens": "Vatandaşlar",
+        "codes": "Kodlar",
+        "invoices": "Faturalar",
+        "announcements": "Duyurular",
+        "config": "Ayarlar",
+        "administration": "Yönetim",
+        "exit": "Çıkış"
+    },
+    "general": {
+        "close": "Kapat",
+        "delete": "Sil",
+        "male": "Erkek",
+        "female": "Kadın",
+        "status": "Durum",
+        "information": "Bilgi",
+        "amount": "Tutar",
+        "name": "İsim",
+        "description": "Açıklama",
+        "job": "Meslek",
+        "grade": "Rütbe",
+        "phone_number": "Telefon Numarası",
+        "dateofbirth": "Doğum Tarihi",
+        "tag": "Etiket",
+        "createdAt": "Oluşturulma Tarihi",
+        "save": "Değişiklikleri Kaydet",
+        "duty": "Görev",
+        "on_duty": "Görevde",
+        "off_duty": "Görev Dışı",
+        "search": "Ara",
+        "incidents": "Olaylar",
+        "no-results": "Sonuç Yok",
+        "gender": "Cinsiyet",
+        "location": "Konum",
+        "title": "Başlık",
+        "cancel": "İptal",
+        "continue": "Devam Et",
+        "notes": "Notlar",
+        "code": "Kod",
+        "firstname": "Ad",
+        "lastname": "Soyad",
+        "fingerprint": "Parmak İzi",
+        "proceed": "Devam Et",
+        "insurance": "Sigorta",
+        "no": "Hayır",
+        "yes": "Evet",
+        "list": "Liste",
+        "create": "Oluştur",
+        "camera": "Kamera",
+        "link": "Bağlantı",
+        "pin": "Sabitle",
+        "unpin": "Sabit Kaldır",
+        "page_of": "Sayfa {{x}} / {{y}}",
+        "backToSafety": "Güvenliğe Dön",
+        "expand-image": "Görüntüyü Büyüt",
+        "remove-image": "Görüntüyü Kaldır",
+        "zoomed-image": "Yakınlaştırılmış Görüntü",
+        "image-link": "Görüntü Bağlantısı",
+        "image-description": "Görüntü Açıklaması",
+        "submit": "Gönder",
+        "reduction": "İndirim",
+        "reduce": "Azalt",
+        "bloodtype": "Kan Grubu",
+        "placeholders": {
+            "citizens": "Vatandaşları Ara",
+            "victims": "Mağdurları Ara",
+            "doctors": "Doktorları Ara",
+            "incidents": "Olayları Ara",
+            "invoices": "Faturaları Ara",
+            "codes": "Kodları Ara",
+            "announcements": "Duyuruları Ara",
+            "recruits": "Adayları Ara",
+            "identifier": "Kimlik Arayın",
+            "tag": "Etiket Ara",
+            "date": "Tarih Seçin"
+        }
+    },
+    "templates": {
+        "incident": "Olay #{id}"
+    },
+    "jobs": {
+        "ambulance": "Ambulans"
+    },
+    "notification": {
+        "error": "Oops! Bir şeyler beklenmedik şekilde ters gitti.",
+        "create": "Bu kaydı başarıyla oluşturdunuz!",
+        "update": "Bu kaydı başarıyla güncellediniz!",
+        "existent-citizen": "Bu kimlik ile bir vatandaş bulundu!",
+        "registered-citizen": "Bu vatandaşı başarıyla kaydettiniz!",
+        "permission-changed": "Bu rütbe için izinleri başarıyla değiştirdiniz!",
+        "employee-fired": "Bu çalışanı başarıyla işten çıkardınız!",
+        "employee-fire-error": "Daha yüksek rütbeyi veya kendinizi işten çıkaramazsınız!",
+        "rank-changed": "Bu çalışanın rütbesini başarıyla değiştirdiniz!",
+        "hire-citizen": "Bu vatandaşı başarıyla işe aldınız!",
+        "image-attached": "Kayda yeni bir görüntü eklediniz",
+        "remove-image": "Görüntüyü başarıyla kayıttan kaldırdınız",
+        "title": {
+            "created": "Kayıt oluşturuldu",
+            "updated": "Kayıt güncellendi",
+            "error": "Beklenmeyen Hata",
+            "existent-citizen": "Mevcut Vatandaş",
+            "registered-citizen": "Vatandaş Kayıtlı",
+            "permission-changed": "İzinler Değiştirildi",
+            "employee-fired": "Çalışan İşten Çıkarıldı",
+            "rank-changed": "Rütbe Değiştirildi",
+            "hire-citizen": "Vatandaş İşe Alındı",
+            "image-attached": "Görüntü Eklendi",
+            "remove-image": "Görüntü Kaldırıldı"
+        }
+    },
+    "dialog": {
+        "delete": {
+            "title": "Emin misiniz?",
+            "description": "Bu işlem geri alınamaz. Bu kayıt veritabanından kalıcı olarak silinecektir.",
+            "citizen": "Bu vatandaşı bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "victim": "Bu mağduru bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "doctor": "Bu doktoru bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "incident": "Bu olayı bu kayıttan kaldırmak istediğinizden emin misiniz?",
+            "invoice": "Bu faturayı bu kayıttan kaldırmak istediğinizden emin misiniz?"
+        },
+        "delete_alert": {
+            "title": "Bu alarmı silmek istediğinizden emin misiniz?",
+            "description": "Bu işlem geri alınamaz. Bu alarm kalıcı olarak silinecektir."
+        },
+        "add-value": {
+            "title": "Yeni Öğe Ekle",
+            "description": "Listeye yeni bir öğe ekleyin."
+        },
+        "set_position": {
+            "title": "Kontrol Noktasını Ayarlamak İstiyor musunuz?",
+            "description": "Bu, MDT haritasındaki kontrol noktasını bu alarmın atanan konumuna ayarlayacaktır."
+        },
+        "job": {
+            "title": "Meslek Seç",
+            "description": "Bu kullanıcı için bir meslek ve rütbe seçebilirsiniz"
+        },
+        "update-permission": {
+            "title": "İzinleri Güncelle",
+            "description": "Bu rütbe için izinleri ekleyin veya kaldırın"
+        },
+        "add-permission": {
+            "title": "İzin Ekle",
+            "description": "Bu rütbeye yeni bir izin ekleyin"
+        },
+        "fire-employee": {
+            "title": "Çalışanı İşten Çıkar",
+            "description": "Bu çalışanı işten çıkarmak istediğinizden emin misiniz?"
+        },
+        "change-rank": {
+            "title": "Rütbe Değiştir",
+            "description": "Bu çalışanın rütbesini değiştirin"
+        },
+        "hire-citizen": {
+            "title": "Vatandaşı İşe Al",
+            "description": "Bu vatandaşı işe almak istediğinizden emin misiniz?"
+        },
+        "add-image": {
+            "title": "Görüntü Ekle",
+            "description": "Bu kayda yeni bir görüntü ekleyin"
+        },
+        "remove-image": {
+            "title": "Görüntüyü Kaldır",
+            "description": "Bu görüntüyü kayıttan kaldırmak istiyor musunuz?"
+        },
+        "change-image": {
+            "title": "Görüntüyü Değiştir",
+            "description": "Galeriden yeni bir profil görüntüsü seçin"
+        },
+        "reset-form": {
+            "title": "Formu Sıfırla",
+            "description": "Bu formu sıfırlamak istediğinizden emin misiniz?"
+        }
+    },
+    "errors": {
+        "no-delete-permission": "Bunu silme izniniz yok!",
+        "loading": {
+            "title": "Bekleyin, bununla ilgileniyoruz",
+            "description": "İstediğiniz bilgileri bulmak için veritabanımızı araştırıyoruz. Bekleyin, hemen buradayız! 🕵️‍♂️"
+        },
+        "page-error": {
+            "title": "Ups! Bir şeyler yanlış gitti",
+            "description": "Üzgünüz, isteğinizle ilgili bir sorun oluştu. Yardım için geliştiriciyle iletişime geçin."
+        },
+        "unexpected-error": {
+            "title": "Beklenmeyen Hata",
+            "description": "Bir şeyler ters gitti, bu sorunu çözmek için sunucu sahibiyle iletişime geçin."
+        },
+        "fetching": {
+            "title": "Sonuçları getiriyoruz",
+            "description": "Lütfen gerekli verileri toplarken sabırlı olun. Girdileriniz, size özel sonuçlar sağlamamıza yardımcı oluyor."
+        },
+        "fetch-error": {
+            "title": "Ups! Bir şeyler yanlış gitti",
+            "description": "Üzgünüz, isteğinizle ilgili bir sorun oluştu. Yardım için geliştiriciyle iletişime geçin."
+        },
+        "fetch-no-results": {
+            "title": "Oops! Gösterilecek bir şey yok",
+            "description": "Sonuçları görmek için bir şeyler yazın. Girdiniz, ne göreceğinizi belirler."
+        },
+        "fetch-no-matched": {
+            "title": "Eşleşme Bulunamadı",
+            "description": "Görünüşe göre arama kriterlerinize uygun bir sonuç bulamadık."
+        }
+    },
+    "dashboard": {
+        "title": "Tekrar Hoş Geldiniz, {{name}}",
+        "description": "{{grade}} | {{job}}",
+        "live_location": "Canlı Konum",
+        "street_name": "Cadde Adı:",
+        "last_announcement": {
+            "title": "Son Duyuru",
+            "description": "En son oluşturulan duyuruyu burada görebilirsiniz",
+            "no-results": "Gösterilecek bir duyuru yok."
+        },
+        "personal": {
+            "title": "Kişisel Bilgiler",
+            "description": "Bunlar kişisel bilgileriniz"
+        },
+        "doctors": {
+            "title": "Çevrimiçi Doktorlar",
+            "description": "Çevrimiçi tüm doktorları ve yararlı bilgileri görüntüleyin"
+        },
+        "chat": {
+            "title": "Sohbet",
+            "description": "Diğer doktorlarla sohbet üzerinden iletişim kurun",
+            "placeholder": "Mesaj yaz..."
+        },
+        "calls": {
+            "title": "Son Çağrılar",
+            "description": "En son alarmları burada görebilirsiniz",
+            "no-alerts": "Şu anda alarm yok. Alarm olduğunda burada bir liste görünecektir.",
+            "details": "Daha fazla ayrıntı görmek için alarma tıklayın",
+            "time": "Görev Süresi"
+        }
+    },
+    "incidents": {
+        "title": "Olaylar",
+        "description": "En son olayları listeleyin",
+        "individual": {
+            "title": "Olay #{{id}}",
+            "description": "Bu olayla ilgili tüm bilgileri görüntüleyin",
+            "information": "Bu olayla ilgili bilgileri görüntüleyebilir ve düzenleyebilirsiniz"
+        },
+        "invoice_reduction": "{{amount}}% Fatura İndirimi",
+        "reduction_description": "Burada fatura tutarını azaltabilirsiniz"
+    },
+    "doctors": {
+        "title": "Doktorlar",
+        "description": "MDT'ye erişimi olan çevrimiçi kişilerin listesini görüntüleyin",
+        "header": "{{job}} - {{length}} Doktor Çevrimiçi",
+        "paragraph": "Bu meslekteki doktorları görüntüleyin"
+    },
+    "dispatch": {
+        "title": "Gönderim",
+        "description": "Görev çağrılarını görüntüleyin, silin ve üstlenin",
+        "individual": {
+            "title": "Alarm #{{id}}",
+            "description": "Bu alarmın tüm bilgilerini görüntüleyin"
+        },
+        "delete": "Alarmı Sil",
+        "position": "Pozisyonu Ayarla",
+        "alerts": {
+            "title": "Alarmlar",
+            "description": "Tüm en yeni çağrıları görüntüleyin"
+        },
+        "map": {
+            "title": "Görev Haritası",
+            "description": "Aktif alarm konumunu görün"
+        }
+    },
+    "citizens": {
+        "title": "Vatandaşlar",
+        "description": "Bir vatandaşın tüm kayıtlarını ve bilgilerini görüntüleyin",
+        "register": "Bir Vatandaş Kaydedin",
+        "individual": {
+            "title": "Vatandaş",
+            "description": "Bu vatandaşa ait tüm bilgileri görüntüleyin",
+            "information": "Bu vatandaşa ait tüm yararlı bilgileri görüntüleyin"
+        },
+        "results": {
+            "title": "Vatandaşları Ara",
+            "description": "İsimle arama yapabilirsiniz"
+        }
+    },
+    "codes": {
+        "title": "Kodlar",
+        "description": "İletişim için kodların listesini görüntüleyin",
+        "individual": {
+            "title": "Kod #{{id}}",
+            "description": "Bu kodun tüm bilgilerini görüntüleyin",
+            "information": "Bu kodla ilgili bilgileri görüntüleyebilir ve düzenleyebilirsiniz"
+        }
+    },
+    "invoices": {
+        "title": "Faturalar",
+        "description": "Faturaları görüntüleyin, oluşturun, silin ve düzenleyin",
+        "individual": {
+            "title": "Fatura #{{id}}",
+            "description": "Bu faturanın tüm bilgilerini görüntüleyin",
+            "information": "Bu faturayla ilgili bilgileri görüntüleyebilir ve düzenleyebilirsiniz"
+        }
+    },
+    "announcements": {
+        "title": "Duyurular",
+        "description": "Diğer doktorlar için duyuruları görüntüleyin, oluşturun ve sabitleyin",
+        "pin": "Duyuruyu Sabitle",
+        "unpin": "Duyuruyu Kaldır",
+        "save": "Duyuruyu Kaydet",
+        "edit": "Duyuruyu Düzenle",
+        "written": "Yazan",
+        "individual": {
+            "title": "Duyuru #{{id}}",
+            "description": "Bu duyurunun tüm bilgilerini görüntüleyin"
+        }
+    },
+    "configuration": {
+        "title": "Yapılandırma",
+        "description": "MDT'yi isteğinize göre özelleştirin",
+        "colors": {
+            "title": "Renkler",
+            "description": "MDT'nizin görünümünü değiştirin",
+            "text": "Metin Renkleri",
+            "other": "Diğer Renkler",
+            "reset": "Renkleri Sıfırla",
+            "name": {
+                "background": "Arka Plan Rengi",
+                "secondary": "İkincil Renk",
+                "text": "Metin Rengi",
+                "text-muted": "Sessiz Metin Rengi",
+                "primary-text": "Birincil Metin Rengi",
+                "contrast": "Kontrast Renk",
+                "error": "Hata Rengi",
+                "ring": "Halka Rengi"
+            }
+        },
+        "language": {
+            "title": "Dil",
+            "description": "MDT'nizin dilini değiştirin",
+            "select": "Tercih ettiğiniz dili seçin"
+        }
+    },
+    "administration": {
+        "title": "Yönetim",
+        "description": "Rütbeler, şirket fonları, çalışanlar, adaylar yönetimi",
+        "permissions": "İzinler",
+        "management": "Yönetim",
+        "recruitment": "İşe Alım",
+        "job": {
+            "add-permission": "İzin Ekle",
+            "update-permission": "İzinleri Güncelle",
+            "select-permission": "Bir İzin Seçin",
+            "grades": {
+                "title": "Rütbe - {{level}}",
+                "description": "\"{{job}}\" işinin rütbeleri",
+                "footer": "Bu, önceki izinleri de kapsar"
+            }
+        },
+        "employees": {
+            "title": "Çalışanlar",
+            "description": "Çevrimiçi tüm çalışanların bir listesi"
+        },
+        "manage": {
+            "title": "\"{{name}}\" Yönetimi",
+            "description": "Bu çalışana daha fazla bilgi görüntüleyin veya işlemler uygulayın",
+            "fire": "Çalışanı İşten Çıkar",
+            "hire": "Vatandaşı İşe Al",
+            "change_rank": "Rütbe Değiştir",
+            "rank_select": "Bir Rütbe Seçin",
+            "activity": {
+                "title": "Aktivite",
+                "description": "Bu çalışan için aktivite istatistiklerini görüntüleyin",
+                "chart": "Son 7 Gün",
+                "table": {
+                    "head": {
+                        "number": "No.",
+                        "clock-in": "Giriş",
+                        "clock-out": "Çıkış",
+                        "hours": "Saat"
+                    },
+                    "total": "Toplam Saatler"
+                }
+            },
+            "funds": {
+                "header": "Şirket Fonları",
+                "footer": "Faturalardan elde edilen gelir"
+            },
+            "employees": {
+                "header": "Çalışanlar",
+                "footer": "çevrimiçi toplam çalışan"
+            },
+            "calls": {
+                "header": "Toplam Çağrılar",
+                "footer": "aktif görev çağrıları"
+            }
+        },
+        "recruits": {
+            "description": "Bu vatandaş hakkında bilgi görüntüleyin",
+            "see": "Vatandaş Sayfasını Görüntüle"
+        }
+    },
+    "forms": {
+        "description": "Formu tüm gerekli bilgilerle doldurun",
+        "citizens": "Bir Vatandaş Kaydedin",
+        "incidents": "Bir Olay Oluşturun",
+        "codes": "Bir Kod Oluşturun",
+        "invoices": "Bir Fatura Oluşturun",
+        "announcements": "Bir Duyuru Oluşturun",
+        "tag": {
+            "title": "Etiket Oluştur",
+            "description": "Bunu kategorize etmek için yeni bir etiket oluşturun. Yeni bir etiket eklemek için oluştur'a tıklayın.",
+            "field-name": "Etiket Adı",
+            "field-description": "Etiket Açıklaması",
+            "field-color": "Etiket Rengi",
+            "button": "Yeni Etiket Oluştur",
+            "notification": {
+                "title": "Etiket Oluşturuldu",
+                "description": "Etiket başarıyla oluşturuldu!"
+            }
+        },
+        "errors": {
+            "required": "Bu alan gereklidir",
+            "create": "Yeni bir giriş oluşturma izniniz yok",
+            "min-length": "Bu alan en az {{length}} karakter içermelidir",
+            "min-number": "Bu alan için minimum değer {{min}}",
+            "max-number": "Bu alan için maksimum değer {{max}}",
+            "invalid-link": "Geçerli bir resim URL'si sağlamalısınız!",
+            "codes": {
+                "format": "Yanlış format, sadece rakamlar kullanabilirsiniz"
+            }
+        }
+    },
+    "autocomplete": {
+        "form": {
+            "placeholder": "Daha {{n}} {{word}} seçebilirsiniz",
+            "maximum": "Maksimum {{word}} seçtiniz"
+        },
+        "words": {
+            "citizens": "Vatandaşlar",
+            "doctors": "Doktorlar",
+            "incidents": "Olaylar",
+            "invoices": "Faturalar"
+        }
+    },
+    "values": {
+        "title": {
+            "victim": "Mağdurlar",
+            "doctor": "Katılan Doktorlar",
+            "invoice": "Uygulanan Faturalar"
+        },
+        "description": {
+            "template": "Bu kayda bağlı {{word}}'leri görüntüleyin ve düzenleyin",
+            "citizen-incident": "Bu vatandaşa atanan olayları görüntüleyin ve düzenleyin",
+            "words": {
+                "citizen": "Vatandaşlar",
+                "victim": "Mağdurlar",
+                "doctor": "Doktorlar",
+                "invoice": "Faturalar"
+            }
+        },
+        "add": {
+            "citizen": "Bir Vatandaş Ekle",
+            "victim": "Bir Mağdur Ekle",
+            "doctor": "Bir Doktor Ekle",
+            "incident": "Bir Olay Ekle",
+            "invoice": "Bir Fatura Ekle"
+        }
+    },
+    "gallery": {
+        "title": {
+            "citizen": "Vatandaş Galerisi",
+            "incident": "Görüntüler"
+        },
+        "description": {
+            "citizen": "Bu vatandaşa ait görüntüleri görüntüleyin",
+            "incident": "Bu olaya atanan görüntüleri görüntüleyin"
+        }
+    },
+    "permissions": {
+        "dashboard.view": {
+            "label": "Gösterge Paneli Sayfasını Görüntüle",
+            "description": "Kullanıcının Gösterge Paneli Sayfasını görüntülemesine izin verir"
+        },
+        "incidents.view": {
+            "label": "Olay Sayfasını Görüntüle",
+            "description": "Kullanıcının Olay Sayfasını görüntülemesine izin verir"
+        },
+        "doctors.view": {
+            "label": "Doktorlar Sayfasını Görüntüle",
+            "description": "Kullanıcının Doktorlar Sayfasını görüntülemesine izin verir"
+        },
+        "dispatch.view": {
+            "label": "Gönderim Sayfasını Görüntüle",
+            "description": "Kullanıcının Gönderim Sayfasını görüntülemesine izin verir"
+        },
+        "citizens.view": {
+            "label": "Vatandaşlar Sayfasını Görüntüle",
+            "description": "Kullanıcının Vatandaşlar Sayfasını görüntülemesine izin verir"
+        },
+        "codes.view": {
+            "label": "Kodlar Sayfasını Görüntüle",
+            "description": "Kullanıcının Kodlar Sayfasını görüntülemesine izin verir"
+        },
+        "invoices.view": {
+            "label": "Faturalar Sayfasını Görüntüle",
+            "description": "Kullanıcının Faturalar Sayfasını görüntülemesine izin verir"
+        },
+        "announcements.view": {
+            "label": "Duyurular Sayfasını Görüntüle",
+            "description": "Kullanıcının Duyurular Sayfasını görüntülemesine izin verir"
+        },
+        "config.view": {
+            "label": "Yapılandırma Sayfasını Görüntüle",
+            "description": "Kullanıcının Yapılandırma Sayfasını görüntülemesine izin verir"
+        },
+        "administration.view": {
+            "label": "Yönetim Sayfasını Görüntüle",
+            "description": "Kullanıcının Yönetim Sayfasını görüntülemesine izin verir"
+        },
+        "incidents.delete": {
+            "label": "Olayı Sil",
+            "description": "Kullanıcının olayları silmesine izin verir"
+        },
+        "incidents.create": {
+            "label": "Olay Oluştur",
+            "description": "Kullanıcının yeni olaylar oluşturmasına izin verir"
+        },
+        "incidents.edit": {
+            "label": "Olayı Düzenle",
+            "description": "Kullanıcının mevcut olayları düzenlemesine izin verir"
+        },
+        "dispatch.alert.delete": {
+            "label": "Görev Alarmını Sil",
+            "description": "Kullanıcının görev alarmlarını silmesine izin verir"
+        },
+        "citizens.register": {
+            "label": "Vatandaşı Kaydet",
+            "description": "Kullanıcının yeni vatandaşlar kaydetmesine izin verir"
+        },
+        "citizens.edit": {
+            "label": "Vatandaşı Düzenle",
+            "description": "Kullanıcının mevcut vatandaşları düzenlemesine izin verir"
+        },
+        "gallery.edit": {
+            "label": "Galeriyi Düzenle",
+            "description": "Kullanıcının galeri içeriğini düzenlemesine izin verir"
+        },
+        "codes.delete": {
+            "label": "Kodu Sil",
+            "description": "Kullanıcının kodları silmesine izin verir"
+        },
+        "codes.create": {
+            "label": "Kod Oluştur",
+            "description": "Kullanıcının yeni kodlar oluşturmasına izin verir"
+        },
+        "codes.edit": {
+            "label": "Kodu Düzenle",
+            "description": "Kullanıcının mevcut kodları düzenlemesine izin verir"
+        },
+        "invoices.delete": {
+            "label": "Faturayı Sil",
+            "description": "Kullanıcının faturaları silmesine izin verir"
+        },
+        "invoices.create": {
+            "label": "Fatura Oluştur",
+            "description": "Kullanıcının yeni faturalar oluşturmasına izin verir"
+        },
+        "invoices.edit": {
+            "label": "Faturayı Düzenle",
+            "description": "Kullanıcının mevcut faturaları düzenlemesine izin verir"
+        },
+        "announcements.create": {
+            "label": "Duyuru Oluştur",
+            "description": "Kullanıcının yeni duyurular oluşturmasına izin verir"
+        },
+        "announcements.delete": {
+            "label": "Duyuruyu Sil",
+            "description": "Kullanıcının duyuruları silmesine izin verir"
+        },
+        "announcements.pin": {
+            "label": "Duyuruyu Sabitle",
+            "description": "Kullanıcının duyuruları sabitlemesine izin verir"
+        },
+        "announcements.edit": {
+            "label": "Duyuruyu Düzenle",
+            "description": "Kullanıcının mevcut duyuruları düzenlemesine izin verir"
+        },
+        "administration.permissions.update": {
+            "label": "İzinleri Güncelle",
+            "description": "Kullanıcının Yönetim bölümünde izinleri güncellemesine izin verir"
+        },
+        "administration.management.employee.view": {
+            "label": "Çalışan Yönetimini Görüntüle",
+            "description": "Kullanıcının Yönetim bölümünde çalışan yönetimini görüntülemesine izin verir"
+        },
+        "administration.management.employee.fire": {
+            "label": "Çalışanı İşten Çıkar",
+            "description": "Kullanıcının bir çalışanı işten çıkarmasına izin verir"
+        },
+        "administration.management.employee.change_rank": {
+            "label": "Çalışanın Rütbesini Değiştir",
+            "description": "Kullanıcının bir çalışanın rütbesini değiştirmesine izin verir"
+        },
+        "administration.recruit.view": {
+            "label": "Aday Yönetimini Görüntüle",
+            "description": "Kullanıcının Yönetim bölümünde aday yönetimini görüntülemesine izin verir"
+        },
+        "administration.recruit.hire": {
+            "label": "Adayı İşe Al",
+            "description": "Kullanıcının bir adayı işe almasına izin verir"
+        }
+    }
+}
